@@ -17,5 +17,13 @@ public class CommentsInfo {
     private boolean likeStatusComment; // Проставлен ли лайк под текущей УЗ комментарию
     private String likesOwnerComment; //Кто поставил лайк комментарию
 
+    //Пропущенные переменные
+    private boolean canClose; // может ли текущий пользователь закрыть комментарии к записи;
+    private boolean canOpen; // может ли текущий пользователь открыть комментарии к записи.
+
+
+
+
+
 
 }
